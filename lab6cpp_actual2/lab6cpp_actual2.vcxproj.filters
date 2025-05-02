@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="create.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="iface.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GUIDs.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="create.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="client1.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="cmpnt1.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="cmpnt2.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="cmpnt3.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="client3.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="client2.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cmpnt1.def">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="cmpnt2.def">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="cmpnt3.def">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="cmpnt2.pdb">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="cmpnt1.pdb">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="client2.pdb">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="client3.pdb">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="client1.pdb">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="cmpnt3.pdb">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="cmpnt3.ilk">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="cmpnt2.ilk">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="cmpnt1.ilk">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="client3.ilk">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="client2.ilk">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="client1.ilk">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="client3.exe">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="client1.exe">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="client2.exe">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="cmpnt2.dll">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="cmpnt1.dll">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="cmpnt3.dll">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="vc140.pdb">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="cmpnt1.exp">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="cmpnt2.exp">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="cmpnt3.exp">
+      <Filter>Исходные файлы</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="GUIDs.obj" />
+    <Object Include="client3.obj" />
+    <Object Include="client2.obj" />
+    <Object Include="cmpnt3.obj" />
+    <Object Include="client1.obj" />
+    <Object Include="cmpnt2.obj" />
+    <Object Include="cmpnt1.obj" />
+    <Object Include="create.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="cmpnt1.lib">
+      <Filter>Исходные файлы</Filter>
+    </Library>
+    <Library Include="cmpnt2.lib">
+      <Filter>Исходные файлы</Filter>
+    </Library>
+    <Library Include="cmpnt3.lib">
+      <Filter>Исходные файлы</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
